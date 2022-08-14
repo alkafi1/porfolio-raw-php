@@ -1,0 +1,88 @@
+<?php
+session_start();
+require '../login_check.php';
+require '../dashboard_parts/header.php'; ?>
+
+<!-- ########## START: MAIN PANEL ########## -->
+<div class="sl-mainpanel">
+    <nav class="breadcrumb sl-breadcrumb">
+        <a class="breadcrumb-item" href="index.html">Starlight</a>
+        <a class="breadcrumb-item" href="index.html">Banner</a>
+        <span class="breadcrumb-item active">Blank Page</span>
+    </nav>
+    
+    <div class="sl-pagebody">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-6 m-auto">
+                    <div class="card">
+                        <div class="card-header bg-info">
+                            <h3 class="text-light">Add Brand Logo</h3>
+                        </div>
+                        <div class="card-body">
+                            <form action="add_brand_logo_post.php" method="post" enctype="multipart/form-data">
+                                    <div class="row">
+                                        <div class="col-sm-5">
+                                            <label for="" class="form-label">Brand Logo</label>
+                                            <input type="file" name="brand_logo" id="" class="form-control" value="" oninput="pic.src=window.URL.createObjectURL(this.files[0])">
+
+                                            <?php if(isset($_SESSION['photo_error'])){ ?>
+                                                <strong class="text-danger"><?php echo $_SESSION['photo_error'];?></strong>
+                                            <?php }unset($_SESSION['photo_error']); ?>
+                                            
+                                            <?php if(isset($_SESSION['invalid_size'])){ ?>
+                                                
+                                                <strong class="text-danger"><?php echo $_SESSION['invalid_size'];?></strong>
+                                            <?php }unset($_SESSION['invalid_size']); ?>
+
+                                            <?php if(isset($_SESSION['invalid_ext'])){ ?>
+                                                
+                                                <strong class="text-danger"><?php echo $_SESSION['invalid_ext'];?></strong>
+                                            <?php }unset($_SESSION['invalid_ext']); ?>
+                                        </div>
+                                        <div class="col-sm-7 text-center">
+                                            <img src="" width="100" id="pic" >
+                                        </div>
+                                    </div>
+                                    <?php if(isset($_SESSION['null_error'])){ ?>
+                                        <srtong class=""> <?=$_SESSION['null_error']?></strong>
+                                    <?php } unset($_SESSION['null_error']); ?>
+                                        
+                                <div class="mt-3 text-center">
+                                    <button type="submit " class="btn btn-info">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer">
+                            <h3>
+                                <a href="view_brand_logo.php"><button class="btn btn-warning float-left font-weight-bold mr-2"> View Brand Logo</button></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- sl-pagebody -->
+</div><!-- sl-mainpanel -->
+<!-- ########## END: MAIN PANEL ########## -->
+
+<?php require '../dashboard_parts/footer.php'; ?>
+
+
+<?php
+ if(isset($_SESSION['logo_insert_success'])){
+     ?>
+     <script>
+         Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: '<?=$_SESSION['logo_insert_success']?>',
+            showConfirmButton: false,
+            timer: 1500
+            })
+     </script>
+     <?php
+ }unset($_SESSION['logo_insert_success']);
+?>
+
