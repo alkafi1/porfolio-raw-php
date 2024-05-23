@@ -36,12 +36,12 @@ require 'dashboard_parts/db.php';
     <title>Starlight Responsive Bootstrap 4 Admin Template</title>
 
     <!-- vendor css -->
-    <link href="/Portfolio/dashboard_assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="/Portfolio/dashboard_assets/lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../porfolio-raw-php/dashboard_assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../porfolio-raw-php/dashboard_assets/lib/Ionicons/css/ionicons.css" rel="stylesheet">
 
 
     <!-- Starlight CSS -->
-    <link rel="stylesheet" href="/Portfolio/dashboard_assets/css/starlight.css">
+    <link rel="stylesheet" href="../porfolio-raw-php/dashboard_assets/css/starlight.css">
   </head>
 
   <body>
@@ -81,6 +81,7 @@ require 'dashboard_parts/db.php';
     </div><!-- d-flex -->
 
     <script src="../lib/jquery/jquery.js"></script>
+    <script src=""></script>
     <script src="../lib/popper.js/popper.js"></script>
     <script src="../lib/bootstrap/bootstrap.js"></script>
 

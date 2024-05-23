@@ -70,16 +70,16 @@ $select_brands_logo_res = mysqli_query($db_con, $select_barnds_logo);
         <!-- Place favicon.ico in the root directory -->
 
 		<!-- CSS here -->
-        <link rel="stylesheet" href="/portfolio/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/portfolio/css/animate.min.css">
-        <link rel="stylesheet" href="/portfolio/css/magnific-popup.css">
-        <link rel="stylesheet" href="/portfolio/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="/portfolio/css/flaticon.css">
-        <link rel="stylesheet" href="/portfolio/css/slick.css">
-        <link rel="stylesheet" href="/portfolio/css/aos.css">
-        <link rel="stylesheet" href="/portfolio/css/default.css">
-        <link rel="stylesheet" href="/portfolio/css/style.css">
-        <link rel="stylesheet" href="/portfolio/css/responsive.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//bootstrap.min.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//animate.min.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//magnific-popup.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//fontawesome-all.min.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//flaticon.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//slick.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//aos.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//default.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//style.css">
+        <link rel="stylesheet" href="../porfolio-raw-php//css//responsive.css">
     </head>
     <body class="theme-bg">
 
@@ -438,22 +438,22 @@ $select_brands_logo_res = mysqli_query($db_con, $select_barnds_logo);
 
 
 		<!-- JS here -->
-        <script src="/portfolio/js/popper.min.js"></script>
-        <script src="/portfolio/js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="/portfolio/js/bootstrap.min.js"></script>
-        <script src="/portfolio/js/isotope.pkgd.min.js"></script>
-        <script src="/portfolio/js/one-page-nav-min.js"></script>
-        <script src="/portfolio/js/slick.min.js"></script>
-        <script src="/portfolio/js/ajax-form.js"></script>
-        <script src="/portfolio/js/wow.min.js"></script>
-        <script src="/portfolio/js/aos.js"></script>
-        <script src="/portfolio/js/jquery.waypoints.min.js"></script>
-        <script src="/portfolio/js/jquery.counterup.min.js"></script>
-        <script src="/portfolio/js/jquery.scrollUp.min.js"></script>
-        <script src="/portfolio/js/imagesloaded.pkgd.min.js"></script>
-        <script src="/portfolio/js/jquery.magnific-popup.min.js"></script>
-        <script src="/portfolio/js/plugins.js"></script>
-        <script src="/portfolio/js/main.js"></script>
+        <script src="../porfolio-raw-php//js//popper.min.js"></script>
+        <script src="../porfolio-raw-php//js//vendor/jquery-1.12.4.min.js"></script>
+        <script src="../porfolio-raw-php//js//bootstrap.min.js"></script>
+        <script src="../porfolio-raw-php//js//isotope.pkgd.min.js"></script>
+        <script src="../porfolio-raw-php//js//one-page-nav-min.js"></script>
+        <script src="../porfolio-raw-php//js//slick.min.js"></script>
+        <script src="../porfolio-raw-php//js//ajax-form.js"></script>
+        <script src="../porfolio-raw-php//js//wow.min.js"></script>
+        <script src="../porfolio-raw-php//js//aos.js"></script>
+        <script src="../porfolio-raw-php//js//jquery.waypoints.min.js"></script>
+        <script src="../porfolio-raw-php//js//jquery.counterup.min.js"></script>
+        <script src="../porfolio-raw-php//js//jquery.scrollUp.min.js"></script>
+        <script src="../porfolio-raw-php//js//imagesloaded.pkgd.min.js"></script>
+        <script src="../porfolio-raw-php//js//jquery.magnific-popup.min.js"></script>
+        <script src="../porfolio-raw-php//js//plugins.js"></script>
+        <script src="../porfolio-raw-php//js//main.js"></script>
     </body>
 
 <!-- Mirrored from themebeyond.com/html/kufa/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2020 06:28:17 GMT -->

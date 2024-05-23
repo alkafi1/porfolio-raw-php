@@ -1,5 +1,5 @@
 <?php
  session_start();
  session_destroy();
- header('location:/Portfolio/login.php');
+ header('location:/porfolio-raw-php/login.php');
 ?>

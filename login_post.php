@@ -20,7 +20,6 @@ require 'dashboard_parts/db.php';
             $_SESSION['password_empty'] = "Input Password";
             header('location:login.php');
         }
-        
         elseif($check_email_assoc['email_exist'] == 1){
             $check_email2 = "SELECT * FROM users WHERE email='$email'";
             $check_email_query2 = mysqli_query($db_con,$check_email2);

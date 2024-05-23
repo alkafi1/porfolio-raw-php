@@ -41,15 +41,15 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
     <title>Starlight Responsive Bootstrap 4 Admin Template</title>
 
     <!-- vendor css -->
-    <link href="/portfolio/dashboard_assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
-    <link href="/portfolio/dashboard_assets/lib/Ionicons/css/ionicons.css" rel="stylesheet">
-    <link href="/portfolio/dashboard_assets/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
-    <link href="/portfolio/dashboard_assets/css/bootsrtap.min.css" rel="stylesheet">
+    <link href="/porfolio-raw-php/dashboard_assets/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="/porfolio-raw-php/dashboard_assets/lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="/porfolio-raw-php/dashboard_assets/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="/porfolio-raw-php/dashboard_assets/css/bootsrtap.min.css" rel="stylesheet">
 
 
     <!-- Starlight CSS -->
-    <link rel="stylesheet" href="/portfolio/dashboard_assets/css/starlight.css">
-    <link rel="stylesheet" href="/portfolio/dashboard_assets/css/admin.css">
+    <link rel="stylesheet" href="/porfolio-raw-php/dashboard_assets/css/starlight.css">
+    <link rel="stylesheet" href="/porfolio-raw-php/dashboard_assets/css/admin.css">
 </head>
 
 <body>
@@ -66,7 +66,7 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
 
         <label class="sidebar-label">Navigation</label>
         <div class="sl-sideleft-menu">
-            <a href="/portfolio/dashboard.php" class="sl-menu-link">
+            <a href="/porfolio-raw-php/dashboard.php" class="sl-menu-link">
                 <div class="sl-menu-item">
                     <i class="menu-item-icon icon ion-ios-home-outline tx-22"></i>
                     <span class="menu-item-label">Dashboard</span>
@@ -86,9 +86,9 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="/portfolio/add_users/registration.php" class="nav-link">Add Users</a></li>
-                <li class="nav-item"><a href="/portfolio/users/users.php" class="nav-link">View Users</a></li>
-                <li class="nav-item"><a href="/portfolio/users/trash.php" class="nav-link">Trash Users</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/add_users/registration.php" class="nav-link">Add Users</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/users/users.php" class="nav-link">View Users</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/users/trash.php" class="nav-link">Trash Users</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -98,8 +98,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="/portfolio/banners/add_banner.php" class="nav-link">Add banners</a></li>
-                <li class="nav-item"><a href="/portfolio/banners/view_banner.php" class="nav-link">View Banner</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/banners/add_banner.php" class="nav-link">Add banners</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/banners/view_banner.php" class="nav-link">View Banner</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -109,8 +109,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="/portfolio/social_icon/add_social_icon.php" class="nav-link">Add Social_icon</a></li>
-                <li class="nav-item"><a href="/portfolio/social_icon/view_social_icon.php" class="nav-link">View Social Icon</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/social_icon/add_social_icon.php" class="nav-link">Add Social_icon</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/social_icon/view_social_icon.php" class="nav-link">View Social Icon</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -120,8 +120,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/contact_info/add_contact_info.php" class="nav-link">Add Contact Info</a></li>
-                <li class="nav-item"><a href="/portfolio/contact_info/view_contact_info.php" class="nav-link">View Contact Info</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/contact_info/add_contact_info.php" class="nav-link">Add Contact Info</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/contact_info/view_contact_info.php" class="nav-link">View Contact Info</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -131,8 +131,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/about_content/add_about_content.php" class="nav-link">Add About Content</a></li>
-                <li class="nav-item"><a href="/portfolio/about_content/view_about_content.php" class="nav-link">View Contact Info</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/about_content/add_about_content.php" class="nav-link">Add About Content</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/about_content/view_about_content.php" class="nav-link">View Contact Info</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -142,8 +142,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/skills/add_skill.php" class="nav-link">Add Skill</a></li>
-                <li class="nav-item"><a href="/portfolio/skills/view_skill.php" class="nav-link">View Skill List</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/skills/add_skill.php" class="nav-link">Add Skill</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/skills/view_skill.php" class="nav-link">View Skill List</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -153,8 +153,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/services/add_service.php" class="nav-link">Add Service</a></li>
-                <li class="nav-item"><a href="/portfolio/services/view_service.php" class="nav-link">View Service List</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/services/add_service.php" class="nav-link">Add Service</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/services/view_service.php" class="nav-link">View Service List</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -164,8 +164,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/logo/add_logo.php" class="nav-link">Add Logo</a></li>
-                <li class="nav-item"><a href="/portfolio/logo/view_logo.php" class="nav-link">View Logo</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/logo/add_logo.php" class="nav-link">Add Logo</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/logo/view_logo.php" class="nav-link">View Logo</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -175,8 +175,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/fact_content/add_fact_content.php" class="nav-link">Add Count Content </a></li>
-                <li class="nav-item"><a href="/portfolio/fact_content/view_fact_content.php" class="nav-link">View Count Content</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/fact_content/add_fact_content.php" class="nav-link">Add Count Content </a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/fact_content/view_fact_content.php" class="nav-link">View Count Content</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
@@ -186,8 +186,8 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/brand_logo/add_brand_logo.php" class="nav-link">Add Brand Logo</a></li>
-                <li class="nav-item"><a href="/portfolio/brand_logo/view_brand_logo.php" class="nav-link">View Brand Logo</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/brand_logo/add_brand_logo.php" class="nav-link">Add Brand Logo</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/brand_logo/view_brand_logo.php" class="nav-link">View Brand Logo</a></li>
             </ul>
 
             <a href="#" class="sl-menu-link">
@@ -198,19 +198,19 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/feedback/add_feedback.php" class="nav-link">Add Feedback</a></li>
-                <li class="nav-item"><a href="/portfolio/feedback/view_feedback.php" class="nav-link">View Feedback</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/feedback/add_feedback.php" class="nav-link">Add Feedback</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/feedback/view_feedback.php" class="nav-link">View Feedback</a></li>
             </ul>
             <a href="#" class="sl-menu-link">
                 <div class="sl-menu-item">
                     <i class="menu-item-icon fa fa-comments-o tx-20"></i>
-                    <span class="menu-item-label">Portfolio</span>
+                    <span class="menu-item-label">porfolio-raw-php</span>
                     <i class="menu-item-arrow fa fa-angle-down"></i>
                 </div><!-- menu-item -->
             </a><!-- sl-menu-link -->
             <ul class="sl-menu-sub nav flex-column">
-                <li class="nav-item"><a href="\Portfolio/portfolio/add_portfolio.php" class="nav-link">Add Portfolio</a></li>
-                <li class="nav-item"><a href="/portfolio/portfolio/view_portfolio.php" class="nav-link">View Portfolio</a></li>
+                <li class="nav-item"><a href="\porfolio-raw-php/portfolio/add_portfolio.php" class="nav-link">Add porfolio-raw-php</a></li>
+                <li class="nav-item"><a href="/porfolio-raw-php/portfolio/view_portfolio.php" class="nav-link">View porfolio-raw-php</a></li>
             </ul>
 
         </div><!-- sl-sideleft-menu -->
@@ -229,12 +229,12 @@ $select_logged_user_info_assoc = mysqli_fetch_assoc($select_logged_user_info_que
                 <div class="dropdown">
                     <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
                         <span class="logged-name"><?=$select_logged_user_info_assoc['name']?></span>
-                        <img src="/portfolio/image/uploads/users/<?=$select_logged_user_info_assoc['profile_photo']?>" class="wd-32 rounded-circle" alt="">
+                        <img src="/porfolio-raw-php/image/uploads/users/<?=$select_logged_user_info_assoc['profile_photo']?>" class="wd-32 rounded-circle" alt="">
                     </a>
                     <div class="dropdown-menu dropdown-menu-header wd-200">
                         <ul class="list-unstyled user-profile-nav">
-                            <li><a href="/portfolio/users/edit_profile.php"><i class="icon ion-ios-person-outline"></i> Edit Profile</a></li>
-                            <li><a href="/portfolio/logout.php"><i class="icon ion-power"></i> Sign Out</a></li>
+                            <li><a href="/porfolio-raw-php/users/edit_profile.php"><i class="icon ion-ios-person-outline"></i> Edit Profile</a></li>
+                            <li><a href="/porfolio-raw-php/logout.php"><i class="icon ion-power"></i> Sign Out</a></li>
                         </ul>
                     </div><!-- dropdown-menu -->
                 </div><!-- dropdown -->

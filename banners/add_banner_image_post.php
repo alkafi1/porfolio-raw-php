@@ -5,7 +5,7 @@ require '../dashboard_parts/db.php';
     $banner_image_name = $banner_image['name']; 
     $banner_image_name_explode = explode('.',$banner_image_name);
     $extention = end($banner_image_name_explode);
-    $allowed_ext = array('png','jpg');
+    $allowed_ext = array('png','PNG','jpg');
     if(in_array($extention, $allowed_ext)){
         if($banner_image['size'] <= 1000000){
 
